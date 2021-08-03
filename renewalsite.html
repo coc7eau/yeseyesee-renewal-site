@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yeseyesee renewal site</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+ <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script> 
+   <script src="./js/javascript.js"></script>
+  
+ 
+</head>
+<body>
+
+
+
+    <div id="wrap">
+<header>
+    <nav class="bar">
+        <a href="#" class="logo">logo</a>
+        <a href="#" class="pagination">pagination</a>
+        <ul class="gnb">
+            <div class="close"><a href="#"><img src="./images/close.png"
+                width="50px" alt=""></a></div>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Hashtag</a></li>
+            <li><a href="#">Event</a></li>
+        </ul>
+        <ul class="lnb">
+            <li><a href="#">
+                <div class="search">
+                    <input type="text" placeholder="Search">
+            </div></a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">English</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+
+
+<section>
+    <article class="cont-1">
+        <div class="evtBox">
+          <div class="evt-1"></div>
+          <div class="evt-2"></div>
+        </div>
+
+        <div class="itemBox">
+            <span>Arrivals</span>
+            <ul>
+                <li><a href="#">View All</a></li>
+                <li><a href="#">Tops</a ></li>
+                <li><a href="#">Bottoms</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Etc</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </div>
+
+    </article>
+
+
+
+   
+        
+    
+
+<article class="cont-2">
+
+    <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper"> 
+             
+               <div class="swiper-img"><a href="#">
+            <img src="./images/layer1.png" 
+                width="161px" height="565px"
+            alt="#"></a>
+            </div>
+              <div class="swiper-slide">
+               <img src="./images/collect3.jpg" alt="">
+        
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/collect4.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/collect5.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/collect1.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/collect2.jpg" alt="">
+              </div>
+           
+            </div>
+        
+          </div>
+
+      <span>Collection</span>
+
+         
+         
+
+
+
+
+
+        
+
+
+  <!-- 
+      <div class="lookImg"><a href="#">
+        <img src="./images/layer1.png" 
+            width="161px" height="565px"
+        alt="#"></a>
+        </div>
+
+      <div class="lookItem">
+            <ol>
+                <li><a href="#">item1</a></li>
+                <li><a href="#">item2</a></li>
+            </ol>
+        </div>--> 
+    </article>
+
+
+
+
+
+    <article class="cont-3">
+       <div class="hash">img1</div>
+       <div class="tag">img2</div>
+       <div class="hashItems">
+           <ul>
+               <li><a href="#"><img src="./images/hashitem1.png" alt=""></a></li>
+               <li><a href="#"><img src="./images/hashitem2.png" width="200px"
+                alt=""></a></li>
+               <li><img src="./images/hashitem3.png" alt=""></li>
+               <li><img src="./images/hashitem4.png" width="400px"
+                alt=""></li>
+               <li><img src="./images/hashitem5.png" width="400px" 
+                alt=""></li>
+                <li><a href="#">insta</a></li>
+        </ul>
+       </div>
+    </article>
+    
+</section>
+
+
+
+
+
+
+<footer>
+  <address><span>&copy; 2021 YESEYESEE Designed by Choi Gwang Hyuck
+  </span><a href="#">Terms & Conditions</a> <a href="#">Privacy Policy</a> <a href="#">Customer Care </a><a href="#">Instagram</a> <a href="#">Facebook</a> </address>
+  <p>주식회사 예스아이씨 사업자등록번호 608-88-01591 대표 김민태 서울특별시 서대문구 연희맛로 1 (연희동) 070-4048-3120 통신판매 2020서울서대문0109호스팅제공자 카페24 이용약관 개인정보처리방침</p>
+
+
+</footer>
+    </div>  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>    
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate:10,
+            stretch: 0,
+            depth: 150,
+            modifier: 1,
+            
+          },loop: true,
+          
+        /* pagination: {
+            el: ".swiper-pagination",
+          },*/
+        });
+      </script>
+</body>
+</html>
+
